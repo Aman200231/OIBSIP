@@ -1,0 +1,56 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Nunito', sans-serif;
+  background-color: #BAD7E9;
+}
+
+.row {
+  background-color: #3C4048;
+  padding: 20px;
+  display: inline-block;
+}
+
+.button {
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px;
+  border-radius: 9px;
+  font-style: calc();
+  cursor: pointer;
+}
+
+.button:hover{
+  background-color: #D2DAFF;
+}
+
+.row input {
+  width: 291px;
+  font-size: 20px;
+  margin: 0 3px;
+  padding: 10px 0px;
+  border: 2px solid navy;
+  border-radius: 5px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mx-auto {
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
